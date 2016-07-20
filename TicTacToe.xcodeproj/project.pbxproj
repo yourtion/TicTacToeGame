@@ -14,6 +14,8 @@
 		CBEEB2131D3F2C3D00E3D8DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEEB2111D3F2C3D00E3D8DC /* Main.storyboard */; };
 		CBEEB2151D3F2C3D00E3D8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEEB2141D3F2C3D00E3D8DC /* Assets.xcassets */; };
 		CBEEB2181D3F2C3D00E3D8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEEB2161D3F2C3D00E3D8DC /* LaunchScreen.storyboard */; };
+		CBEEB2201D3F49D500E3D8DC /* AIStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEB21F1D3F49D500E3D8DC /* AIStrategy.swift */; };
+		CBEEB2221D3F4A3900E3D8DC /* GameStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEB2211D3F4A3900E3D8DC /* GameStateMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CBEEB2141D3F2C3D00E3D8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBEEB2171D3F2C3D00E3D8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBEEB2191D3F2C3D00E3D8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEEB21F1D3F49D500E3D8DC /* AIStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIStrategy.swift; sourceTree = "<group>"; };
+		CBEEB2211D3F4A3900E3D8DC /* GameStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStateMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				CBEEB2141D3F2C3D00E3D8DC /* Assets.xcassets */,
 				CBEEB2161D3F2C3D00E3D8DC /* LaunchScreen.storyboard */,
 				CBEEB2191D3F2C3D00E3D8DC /* Info.plist */,
+				CBEEB21F1D3F49D500E3D8DC /* AIStrategy.swift */,
+				CBEEB2211D3F4A3900E3D8DC /* GameStateMachine.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEEB2201D3F49D500E3D8DC /* AIStrategy.swift in Sources */,
+				CBEEB2221D3F4A3900E3D8DC /* GameStateMachine.swift in Sources */,
 				CBEEB20E1D3F2C3D00E3D8DC /* GameScene.swift in Sources */,
 				CBEEB2101D3F2C3D00E3D8DC /* GameViewController.swift in Sources */,
 				CBEEB20A1D3F2C3D00E3D8DC /* AppDelegate.swift in Sources */,
